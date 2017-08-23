@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+	<title>Maths Tutorials</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+</head>
+
+<body ng-app = "mathsTutorial">
+
+<!--Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mathsTutotialNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">Maths the Fun Way</a>
+    </div>
+    <div class="collapse navbar-collapse" id="mathsTutotialNavbar">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Online Tutorials</a></li>
+      <li><a href="#">get a private tutor</a></li>
+      <li><a href="#">sign up</a></li>
+      <li><a href="#">Contact us</a></li>
+
+    </ul>
+    <form class="navbar-form navbar-right">
+      <div class="form-group has-feedback navbar_search">
+		    <input type="text" class="form-control" placeholder="Search Tutorials" />
+		    <span class="glyphicon glyphicon-search form-control-feedback"></span>
+      </div>
+      <button type="submit" class="btn btn-default">Search</button>
+    </form>
+   </div> 
+  </div>
+</nav>
+<!--Navbar -->
+
+<!--Intro Div-->
+<div id="introduction_div" class="container">
+ <h1>Do you need help with Maths?</h1>
+ <p>Our website uses an interactive methodology of teaching Maths using the latest web technologies.Your learning experience with us is guarenteed to be intuitive and fun.You will have fun while learning.This is the secret of our outstanding results.Check reviews from our students.</p>
+
+ <h2>Why us?</h2>
+ <ul class="fa-ul why_us_list">
+ 	<li><i class="fa-li fa fa-check"></i>Our teachers are available at any time</li>
+ 	<li><i class="fa-li fa fa-check"></i>Available on laptop, tablets and phone</li>
+ 	<li><i class="fa-li fa fa-check"></i>30 day money back guarantee</li>
+ 	<li><i class="fa-li fa fa-check"></i>Interactive Games for an enjoyable learning experience</li>
+ 	<li><i class="fa-li fa fa-check"></i>Learn at your own pace</li>
+ 	<li><i class="fa-li fa fa-check"></i>Complete Curiiculum</li>
+
+ </ul>
+	
+</div>
+<!--Intro Div--> 
+
+<!--Trending Videos-->
+<div class="container trending">
+<md-whiteframe class="md-whiteframe-3dp" layout >
+  <h3>Trending Videos</h3><i class="glyphicon glyphicon-fire"></i>
+  <div class="view_all_trending"><a href=""><h6>View all</h6> <i class="fa fa-arrow-right"></i></a></div>
+
+  <div class="trending_videos">
+  <ul>
+  <li><iframe src="https://www.youtube.com/embed/oYaR9wyLiWs" frameborder="0" allowfullscreen></iframe><h4>Square of a Number</h4></li>
+  <li><iframe src="https://www.youtube.com/embed/m9dpeG2rKdY" frameborder="0" allowfullscreen></iframe><h4>Intoduction to Circles</h4></li>
+  <li><iframe src="https://www.youtube.com/embed/f6DZoX5dKbE" frameborder="0" allowfullscreen></iframe><h4>2D becomes 3D</h4></li>
+  <li><iframe src="https://www.youtube.com/embed/HSuqbqENIek" frameborder="0" allowfullscreen></iframe><h4>Irrational Pi</h4></li>
+  <li><iframe src="https://www.youtube.com/embed/hUYoFDGO6RY" frameborder="0" allowfullscreen></iframe><h4>Memorising Tables</h4></li>
+  <li><iframe src="https://www.youtube.com/embed/9ActasB44kE" frameborder="0" allowfullscreen></iframe><h4>Multiplication made easy</h4></li>
+  <li><iframe src="https://www.youtube.com/embed/nUyLnjgGumg" frameborder="0" allowfullscreen></iframe><h4>Square root</h4></li>
+  <li><iframe src="https://www.youtube.com/embed/YuOIrrxFJL4" frameborder="0" allowfullscreen></iframe><h4>Symetry</h4></li>
+    
+
+  </div>
+  </md-whiteframe>  
+</div> 
+<!--Trending Videos-->
+
+<!--footer-->
+<div class="container footer">
+<hr>
+Arpit Banati &copy; 2017
+</div>
+<!--footer-->
+
+
+
+
+  <!--Script FIles included here -->	
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+  <!--Script FIles included here -->
+  <script >
+	angular.module('mathsTutorial',['ngMaterial']);
+</script>
+</body>
+
+</html>
+
