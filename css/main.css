@@ -167,13 +167,13 @@ iframe{
 	    position: absolute;
 	    text-align: center;
 	    width: 200px;
-	    left: 16%;
+	    left: 4%;
 	    margin-top: 5%;
     }
     .trending .glyphicon-fire{
 		position: absolute;
 	    top: 0.5%;
-	    right: 24%;
+	    left: 70%;
     }
     .trending ul li {
 	    float: left;
