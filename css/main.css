@@ -180,7 +180,7 @@ iframe{
 	    margin-right: 2%;
 	    margin-bottom: 3.5%;
 	    margin-left: 22%;
-	    width: 300px;
+	    width: 67%;
     }
     .trending_videos {
 	    margin-top: 18%;
@@ -219,3 +219,120 @@ iframe{
 	    margin-top: 0;
     }
 }
+@media(min-width: 481px) and (max-width: 991px)
+{
+	#introduction_div, .trending{
+		width: 92%;
+	}
+
+	.trending .glyphicon-fire{
+        margin-top: 4%;
+	    left: 26%;
+    }
+    .trending_videos {
+	    margin-left: -31%;
+    }
+/*	    .trending ul li {
+	    margin-right: 7%;
+	    width: 43px;
+        }
+
+    .trending_videos {
+	    margin-top: 19%;
+	    margin-left: -65%;
+    }
+        .trending .glyphicon-fire{
+	    margin-top: 8%;
+	    left: 50%;
+    }
+        .view_all_trending{
+	    width: 16%;
+	    margin-top: 8%;
+    }*/
+}
+
+@media (min-width: 992px) and (max-width: 1099px){
+	.trending .glyphicon-fire{
+        margin-top: 4%;
+	    left: 25%;
+    }
+    .trending_videos {
+	    margin-left: -30%;
+    }
+}
+
+@media (min-width: 385px) and (max-width: 415px){
+	.trending .glyphicon-fire{
+        margin-left: 5%;
+    }
+    .trending_videos {
+	    margin-left: 87px;
+    }
+}
+
+@media (max-width: 415px){
+    .trending .glyphicon-fire{
+        margin-left: 5%;
+    }
+    .trending ul li {
+	    float: left;
+	    margin-right: 2%;
+	    margin-bottom: 3.5%;
+	    margin-left: 22%;
+	    width: 70%;
+    }
+    .trending_videos {
+	    margin-top: 18%;
+	    margin-left: -21%;
+	    position: absolute;
+	    left: -6%;
+    }
+
+}
+/*For Navbar*/
+@media(min-width: 481px) and (max-width: 768px){
+	.navbar-form{
+		margin-bottom: 0;
+		padding: 0 15px;
+	}
+	.navbar-form .form-group{
+	    width: 65%;
+	    float: left;
+	    margin-left: 0%;
+	    margin-top: 10px;
+	}
+	.navbar-form button{
+		float: right;
+		margin-top: 10px;
+	}
+}
+
+@media(min-width: 769px) and (max-width: 1065px){
+	.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 10px 10px;
+    font-size: 0.9em;
+    line-height: 30px;
+    }
+    .navbar-collapse{
+    	padding: 0;
+    }
+    .navbar-nav>li{
+    	font-size: 0.9em;
+    }
+    .navbar-form{
+    	display: none;
+    }
+    .search_icon{
+    	position: absolute;
+    	right: 3%;
+    }
+}
+
+
+
+
+  
+
+
